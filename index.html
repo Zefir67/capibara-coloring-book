@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Capibara — Coloring Book Audio</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; padding: 24px; background: #faf7f2; color: #222; }
+    .card { max-width: 520px; margin: 0 auto; background: #fff; border-radius: 16px; padding: 24px; box-shadow: 0 6px 24px rgba(0,0,0,0.08); }
+    .lang-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 16px 0; }
+    button { padding: 12px 16px; border-radius: 10px; border: 1px solid #ddd; background: #fff; font-size: 16px; cursor: pointer; }
+    button.active { background: #222; color: #fff; border-color: #222; }
+    .phrase { font-size: 20px; line-height: 1.45; margin: 20px 0; min-height: 70px; transition: opacity 0.3s ease; }
+    .fade { opacity: 0.25; }
+    audio { width: 100%; margin-top: 12px; }
+    .topbar { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+    select { padding: 6px 10px; border-radius: 8px; border: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+  <div class="card" id="app"></div>
+
+  <script src="data.js"></script>
+  <script>
+    const LANGS = {
+      it: "Italiano",
+      en: "English",
+      es: "Español",
+      fr: "Français"
+    };
+    const STORAGE_KEY = "capibara_lang";
+
+    function getSavedLang() {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      return LANGS[saved] ? saved : "it";
+    }
+
+    function setLang(lang) {
+      if (!LANGS[lang]) return;
+      localStorage.setItem(STORAGE_KEY, lang);
+      render();
+    }
+
+    function getTavolaParam() {
+      const params = new URLSearchParams(window.location.search);
+      const raw = params.get("tavola");
+      if (!raw) return null;
+      return raw.padStart(2, "0");
+    }
+
+    function render() {
+      const app = document.getElementById("app");
+      const currentLang = getSavedLang();
+      const tavolaKey = getTavolaParam();
+
+      if (!tavolaKey) {
+        app.innerHTML = `
+          <h2>Scegli la lingua / Choose language</h2>
+          <p>Seleziona la lingua per frasi e contenuti del libro del Capibara.</p>
+          <div class="lang-grid">
+            ${Object.entries(LANGS).map(([code, label]) => `
+              <button class="${code === currentLang ? "active" : ""}" onclick="setLang('${code}')">${label}</button>
+            `).join("")}
+          </div>
+          <p><small>Lingua salvata: <strong>${LANGS[currentLang]}</strong>. Puoi cambiare lingua in qualsiasi momento.</small></p>
+        `;
+        return;
+      }
+
+      const item = CAPIBARA_DATA[tavolaKey];
+      if (!item) {
+        app.innerHTML = `<h2>Tavola ${tavolaKey}</h2><p>Contenuto in preparazione per questa tavola.</p>`;
+        return;
+      }
+
+      const phraseText = item.phrases[currentLang] || item.phrases.it;
+
+      app.innerHTML = `
+        <div class="topbar">
+          <strong>Tavola #${tavolaKey} — ${item.id.replace(/^\d+_/, "").replaceAll("_", " ")}</strong>
+          <select aria-label="Lingua" onchange="setLang(this.value)">
+            ${Object.entries(LANGS).map(([code, label]) => `
+              <option value="${code}" ${code === currentLang ? "selected" : ""}>${label}</option>
+            `).join("")}
+          </select>
+        </div>
+        <p class="phrase" id="phraseBox">${phraseText}</p>
+        <audio controls preload="none" src="${item.audio}"></audio>
+      `;
+
+      const box = document.getElementById("phraseBox");
+      box.classList.add("fade");
+      requestAnimationFrame(() => setTimeout(() => box.classList.remove("fade"), 60));
+    }
+
+    render();
+  </script>
+</body>
+</html>
