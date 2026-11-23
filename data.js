@@ -319,4 +319,296 @@ const CAPIBARA_DATA = {
       it: "Si accendono le luci delle feste e il capibara si lascia avvolgere dall'atmosfera calda del Natale.",
       en: "Holiday lights begin to glow, and the capybara lets the warm spirit of Christmas surround him.",
       es: "Se encienden las luces festivas y el capibara se deja envolver por el calor de la Navidad.",
-      fr: "Les lumières de
+      fr: "Les lumières de fête s'allument et le capybara se laisse envelopper par la douceur de Noël.",
+      de: "Die Festtagslichter leuchten auf und das Wasserschwein lässt sich von der warmen Weihnachtsstimmung einhüllen."
+    }
+  },
+  "19": {
+    id: "19_pescatore",
+    audio: "audio/traccia_01.mp3",
+    phrases: {
+      it: "La canna ferma e il pensiero che riposa: pescare è soprattutto imparare ad aspettare sereni.",
+      en: "A steady rod and a resting mind: fishing is above all learning to wait calmly.",
+      es: "La caña quieta y la mente en calma: pescar es sobre todo aprender a esperar tranquilo.",
+      fr: "La ligne posée et l'esprit au repos : pêcher, c'est avant tout savoir attendre sereinement.",
+      de: "Eine ruhige Angelrute und entspannte Gedanken: Angeln heißt vor allem, gelassen warten zu lernen."
+    },
+    story: {
+      it: "Vicino alla riva lancia la lenza e si gode il silenzio, sapendo che l'attesa è già parte del piacere.",
+      en: "By the water's edge he casts his line and enjoys the quiet, knowing waiting is half the joy.",
+      es: "Junto a la orilla lanza el sedal y disfruta del silencio, sabiendo que esperar ya es un placer.",
+      fr: "Au bord de l'eau, il lance sa ligne et savoure le calme, sachant que l'attente fait partie du plaisir.",
+      de: "Am Ufer wirft es die Leine aus und genießt die Stille, wohl wissend, dass das Warten schon Teil der Freude ist."
+    }
+  },
+  "20": {
+    id: "20_mago",
+    audio: "audio/traccia_03.mp3",
+    phrases: {
+      it: "Un tocco di bacchetta e l'immaginazione si accende: la vera magia è ciò che sai inventare.",
+      en: "A wave of the wand and imagination lights up: real magic is what you can invent.",
+      es: "Un toque de varita y la imaginación se enciende: la verdadera magia es lo que inventas.",
+      fr: "Un geste de baguette et l'imagination s'allume : la vraie magie, c'est ce que tu inventes.",
+      de: "Ein Schwung mit dem Zauberstab und die Fantasie erwacht: Wahre Magie ist das, was du dir ausdenkst."
+    },
+    story: {
+      it: "Con il cappello da mago trasforma la curiosità in meraviglia e gioca con la fantasia.",
+      en: "Wearing a wizard's hat, he turns curiosity into wonder and plays with pure imagination.",
+      es: "Con sombrero de mago convierte la curiosidad en asombro y juega con su imaginación.",
+      fr: "Coiffé d'un chapeau de magicien, il change la curiosité en merveille et joue avec sa fantaisie.",
+      de: "Mit dem Zauberhut verwandelt es Neugier in Staunen und spielt voller Freude mit seiner Fantasie."
+    }
+  },
+  "21": {
+    id: "21_babbo_natale",
+    audio: "audio/traccia_06.mp3",
+    phrases: {
+      it: "Un sacco pieno di sorprese e un passo gentile: donare un sorriso vale più di ogni regalo.",
+      en: "A bag full of surprises and a gentle step: sharing a smile is worth more than any gift.",
+      es: "Un saco lleno de sorpresas y un paso amable: regalar una sonrisa vale más que cualquier cosa.",
+      fr: "Une hotte pleine de surprises et un pas doux : offrir un sourire vaut plus que tout.",
+      de: "Ein Sack voller Überraschungen und ein freundlicher Schritt: Ein Lächeln zu schenken ist mehr wert als jedes Geschenk."
+    },
+    story: {
+      it: "Veste i panni di Babbo Natale per portare allegria e piccoli pensieri gentili ovunque passi.",
+      en: "He dresses up as Santa to spread cheer and thoughtful little surprises wherever he goes.",
+      es: "Se viste de Papá Noel para repartir alegría y pequeños detalles amables a su paso.",
+      fr: "Il revêt le costume du Père Noël pour semer la joie et de petites attentions sur son chemin.",
+      de: "Es schlüpft in die Rolle des Weihnachtsmanns, um überall, wo es vorbeikommt, Freude und kleine Aufmerksamkeiten zu verteilen."
+    }
+  },
+  "22": {
+    id: "22_re_e_regina",
+    audio: "audio/traccia_03.mp3",
+    phrases: {
+      it: "Corone regali ma animo gentile: in questo regno vince chi sa accogliere con un sorriso.",
+      en: "Royal crowns with a gentle spirit: in this kingdom, kindness wins every time.",
+      es: "Coronas reales pero corazón amable: en este reino gana quien recibe con una sonrisa.",
+      fr: "Couronnes royales mais cœur doux : dans ce royaume, la gentillesse l'emporte toujours.",
+      de: "Königliche Kronen, aber ein gütiges Herz: In diesem Königreich gewinnt, wer andere mit einem Lächeln empfängt."
+    },
+    story: {
+      it: "Indossa la corona con semplicità, ricordando che la vera nobiltà sta nella gentilezza.",
+      en: "He wears the crown with easy grace, showing that true nobility lives in kindness.",
+      es: "Lleva la corona con sencillez, recordando que la verdadera nobleza está en la amabilidad.",
+      fr: "Il porte la couronne avec simplicité, rappelant que la vraie noblesse réside dans la douceur.",
+      de: "Es trägt die Krone ganz schlicht und erinnert daran, dass wahre Größe in der Freundlichkeit liegt."
+    }
+  },
+  "23": {
+    id: "23_investigatore",
+    audio: "audio/traccia_03.mp3",
+    phrases: {
+      it: "Lente d'ingrandimento e occhi ben aperti: anche il dettaglio più piccolo può svelare un mistero.",
+      en: "Magnifying glass and wide-open eyes: even the smallest clue can solve a mystery.",
+      es: "Lupa en mano y ojos muy atentos: hasta el mínimo detalle puede resolver un misterio.",
+      fr: "Loupe à la main et regard attentif : même le plus petit indice peut percer un mystère.",
+      de: "Lupe in der Hand und wachsame Augen: Selbst das kleinste Detail kann ein Rätsel lösen."
+    },
+    story: {
+      it: "Con lente alla mano osserva ogni traccia e scopre i segreti nascosti nei dettagli più piccoli.",
+      en: "With magnifying glass in hand, he examines every clue and uncovers secrets in tiny details.",
+      es: "Con lupa en mano sigue cada pista y descubre secretos escondidos en los pequeños detalles.",
+      fr: "Loupe en main, il observe chaque piste et découvre les secrets cachés dans les petits détails.",
+      de: "Mit der Lupe in der Hand untersucht es jede Spur und entdeckt Geheimnisse, die in den kleinsten Details verborgen sind."
+    }
+  },
+  "24": {
+    id: "24_pilota_auto_sportiva",
+    audio: "audio/traccia_04.mp3",
+    phrases: {
+      it: "Motore in pista e concentrazione pulita: la velocità vera è restare lucidi curva dopo curva.",
+      en: "Engine on the track and sharp focus: true speed is staying calm corner after corner.",
+      es: "Motor en pista y concentración limpia: la velocidad real es mantener la calma curva a curva.",
+      fr: "Moteur sur la piste et concentration nette : la vraie vitesse, c'est garder son calme.",
+      de: "Motor auf der Strecke und klare Konzentration: Wahre Geschwindigkeit bedeutet, Kurve für Kurve ruhig zu bleiben."
+    },
+    story: {
+      it: "Sale al volante dell'auto sportiva e affronta ogni curva con sorriso rilassato e sguardo attento.",
+      en: "Taking the wheel of a sports car, he takes every turn with a relaxed smile and steady focus.",
+      es: "Se pone al volante del coche deportivo y toma cada curva con sonrisa serena y mirada atenta.",
+      fr: "Au volant d'une voiture de sport, il négocie chaque virage avec un sourire calme et un regard sûr.",
+      de: "Am Steuer des Sportwagens meistert es jede Kurve mit einem entspannten Lächeln und aufmerksamem Blick."
+    }
+  },
+  "25": {
+    id: "25_contadino_trattore",
+    audio: "audio/traccia_01.mp3",
+    phrases: {
+      it: "Solchi freschi nei campi e lavoro concreto: ciò che coltivi oggi darà frutto domani.",
+      en: "Fresh furrows in the fields and steady work: what you plant today will grow tomorrow.",
+      es: "Surcos frescos en el campo y trabajo firme: lo que siembras hoy dará fruto mañana.",
+      fr: "Sillons frais dans les champs et travail régulier : ce que tu sèmes aujourd'hui poussera demain.",
+      de: "Frische Furchen auf dem Feld und ehrliche Arbeit: Was du heute säst, trägt morgen Früchte."
+    },
+    story: {
+      it: "Alla guida del trattore attraversa i campi lavorando con pazienza e amore per la terra.",
+      en: "Driving the tractor across the fields, he works with patience and care for the land.",
+      es: "Al volante del tractor recorre los campos trabajando con paciencia y cariño por la tierra.",
+      fr: "Au volant du tracteur, il parcourt les champs avec patience et amour de la terre.",
+      de: "Am Steuer des Traktors fährt es über die Felder und arbeitet mit Geduld und Liebe zur Erde."
+    }
+  },
+  "26": {
+    id: "26_arcere",
+    audio: "audio/traccia_04.mp3",
+    phrases: {
+      it: "Respiro fermo, mira chiara e niente fretta: centrare il bersaglio parte da dentro.",
+      en: "Steady breath, clear aim, and no rush: hitting the mark starts from within.",
+      es: "Respiro firme, mira clara y sin prisas: dar en el blanco empieza por dentro.",
+      fr: "Souffle posé, visée claire et sans hâte : viser juste commence à l'intérieur.",
+      de: "Ruhiger Atem, klarer Blick und keine Eile: Ins Schwarze zu treffen beginnt im Inneren."
+    },
+    story: {
+      it: "Tende l'arco con calma olimpica: sa che precisione ed equilibrio nascono da un respiro tranquillo.",
+      en: "He draws the bow in total calm, knowing accuracy and balance begin with a steady breath.",
+      es: "Tensa el arco con calma total: sabe que la puntería nace de una respiración tranquila.",
+      fr: "Il bande l'arc en toute sérénité, sachant que la justesse naît d'un souffle calme.",
+      de: "In völliger Gelassenheit spannt es den Bogen, denn es weiß, dass Präzision und Gleichgewicht mit einem ruhigen Atem beginnen."
+    }
+  },
+  "27": {
+    id: "27_pilota_aereo",
+    audio: "audio/traccia_04.mp3",
+    phrases: {
+      it: "Oltre le nuvole lo sguardo si allarga: da quassù ogni confine sembra più piccolo.",
+      en: "Above the clouds your view expands: from up here every border feels smaller.",
+      es: "Sobre las nubes la mirada se amplía: desde ahí arriba todo parece más sencillo.",
+      fr: "Au-dessus des nuages, le regard s'élargit : de là-haut, tout paraît plus léger.",
+      de: "Über den Wolken weitet sich der Blick: Von hier oben wirkt jede Grenze gleich viel kleiner."
+    },
+    story: {
+      it: "Decolla verso il cielo azzurro e guarda il mondo dall'alto con la leggerezza di chi ama esplorare.",
+      en: "Taking off into the blue sky, he views the world from above with an explorer's light heart.",
+      es: "Despega hacia el cielo azul y contempla el mundo desde arriba con espíritu libre.",
+      fr: "Il décolle vers le ciel bleu et contemple le monde d'en haut avec la légèreté d'un explorateur.",
+      de: "Es hebt in den blauen Himmel ab und betrachtet die Welt von oben mit der Leichtigkeit eines Entdeckers."
+    }
+  },
+  "28": {
+    id: "28_a_cavallo",
+    audio: "audio/traccia_01.mp3",
+    phrases: {
+      it: "Intesa silenziosa e passo condiviso: andare d'accordo è il ritmo più bello del viaggio.",
+      en: "Quiet trust and shared stride: moving in harmony is the best rhythm of the journey.",
+      es: "Confianza en silencio y paso compartido: ir en armonía es el mejor ritmo del viaje.",
+      fr: "Entente silencieuse et pas partagé : avancer en harmonie est le plus beau rythme.",
+      de: "Stilles Vertrauen und gemeinsamer Schritt: Im Einklang unterwegs zu sein ist der schönste Rhythmus der Reise."
+    },
+    story: {
+      it: "Cavalca fianco a fianco in perfetta sintonia, avanzando al ritmo sereno della natura.",
+      en: "Riding side by side in quiet harmony, he moves forward at nature's gentle pace.",
+      es: "Cabalga en perfecta sintonía, avanzando al ritmo sereno de la naturaleza.",
+      fr: "Il chevauche en parfaite harmonie, avançant au rythme paisible de la nature.",
+      de: "Seite an Seite reitet es in perfektem Einklang voran und folgt dem ruhigen Rhythmus der Natur."
+    }
+  },
+  "29": {
+    id: "29_paracadutista",
+    audio: "audio/traccia_04.mp3",
+    phrases: {
+      it: "Il paracadute si apre e il vento ti culla: buttarsi con fiducia trasforma il salto in volo.",
+      en: "The parachute opens and the breeze cradles you: leaping with trust turns a drop into flight.",
+      es: "El paracaídas se abre y la brisa te mece: lanzarte con confianza convierte la caída en vuelo.",
+      fr: "Le parachute s'ouvre et le vent te porte : oser avec confiance transforme le saut en vol.",
+      de: "Der Fallschirm öffnet sich und der Wind trägt dich: Mit Vertrauen zu springen verwandelt den Sprung in einen Flug."
+    },
+    story: {
+      it: "Si lancia tra le nuvole con fiducia e fluttua nell'aria godendosi la vista a 360 gradi.",
+      en: "Leaping into the clouds with trust, he floats on the breeze taking in the wide view.",
+      es: "Se lanza entre las nubes con confianza y flota en el aire disfrutando de todo el horizonte.",
+      fr: "Il s'élance dans les nuages avec confiance et flotte dans l'air en profitant du paysage.",
+      de: "Voller Vertrauen springt es in die Wolken und schwebt durch die Luft, während es den Rundumblick genießt."
+    }
+  },
+  "30": {
+    id: "30_fattoria",
+    audio: "audio/traccia_01.mp3",
+    phrases: {
+      it: "Cortile vivo, suoni familiari e aria aperta: la fattoria è un piccolo mondo pieno di vita.",
+      en: "Lively yard, familiar sounds, and open air: the farm is a small world full of life.",
+      es: "Patio animado, sonidos familiares y aire libre: la granja es un mundo lleno de vida.",
+      fr: "Cour animée, sons familiers et grand air : la ferme est un petit monde plein de vie.",
+      de: "Ein lebendiger Hof, vertraute Klänge und frische Luft: Der Bauernhof ist eine kleine Welt voller Leben."
+    },
+    story: {
+      it: "Tornato con i piedi per terra, si gode l'allegria semplice della fattoria tra amici animali.",
+      en: "Back on solid ground, he enjoys the simple cheer of the farm among animal friends.",
+      es: "De vuelta en tierra firme, disfruta de la alegría sencilla de la granja entre amigos.",
+      fr: "De retour sur la terre ferme, il savoure la joie simple de la ferme entouré d'amis.",
+      de: "Wieder mit beiden Füßen auf der Erde genießt es die schlichte Fröhlichkeit des Bauernhofs inmitten tierischer Freunde."
+    }
+  },
+  "31": {
+    id: "31_compleanno",
+    audio: "audio/traccia_06.mp3",
+    phrases: {
+      it: "Candele accese, torta e tanta allegria: oggi è il giorno giusto per festeggiare chi sei.",
+      en: "Lit candles, cake, and plenty of cheer: today is the right day to celebrate who you are.",
+      es: "Velas encendidas, tarta y mucha alegría: hoy es el día ideal para celebrar quién eres.",
+      fr: "Bougies allumées, gâteau et grande joie : aujourd'hui est fait pour fêter qui tu es.",
+      de: "Brennende Kerzen, Kuchen und jede Menge Freude: Heute ist genau der richtige Tag, um zu feiern, wer du bist."
+    },
+    story: {
+      it: "Arriva il momento di spegnere le candeline e festeggiare tutte le avventure vissute fin qui.",
+      en: "Time to blow out the candles and celebrate every adventure lived along the way.",
+      es: "Llega el momento de soplar las velas y celebrar todas las aventuras vividas hasta aquí.",
+      fr: "C'est le moment de souffler les bougies et de fêter toutes les aventures vécues jusque-là.",
+      de: "Jetzt ist der Moment gekommen, die Kerzen auszupusten und all die bisherigen Abenteuer zu feiern."
+    }
+  },
+  "32": {
+    id: "32_alloween_con_gatto",
+    audio: "audio/traccia_06.mp3",
+    phrases: {
+      it: "Un gatto complice e un'aria un po' birichina: anche le serate più buffe nascondono un sorriso.",
+      en: "A playful cat partner and a cheeky vibe: even the silliest nights hide a smile.",
+      es: "Un gato cómplice y un aire travieso: hasta las noches más divertidas esconden una sonrisa.",
+      fr: "Un chat complice et un air espiègle : même les soirées les plus drôles ont un sourire.",
+      de: "Eine verschmitzte Katze an der Seite und ein Hauch von Schabernack: Selbst die verrücktesten Abende zaubern ein Lächeln hervor."
+    },
+    story: {
+      it: "Insieme a un simpatico gattino gioca a travestirsi, trasformando la sera in una festa buffa.",
+      en: "Together with a playful little cat, he dresses up and turns the evening into a fun celebration.",
+      es: "Junto a un simpático gatito juega a disfrazarse y convierte la noche en una fiesta divertida.",
+      fr: "Avec un petit chat complice, il joue à se déguiser et transforme la soirée en fête amusante.",
+      de: "Zusammen mit einem verspielten Kätzchen verkleidet es sich und verwandelt den Abend in ein lustiges Fest."
+    }
+  },
+  "33": {
+    id: "33_famiglia_2",
+    audio: "audio/traccia_07.mp3",
+    phrases: {
+      it: "Vicini e complici, senza bisogno di parole: stare insieme è ciò che rende casa ogni posto.",
+      en: "Close and connected without needing words: being together makes any place feel like home.",
+      es: "Cerca y cómplices sin decir palabra: estar juntos hace que cualquier lugar sea hogar.",
+      fr: "Proches et complices sans un mot : être ensemble fait de chaque lieu une maison.",
+      de: "Nah und vertraut, ganz ohne viele Worte: Zusammensein macht jeden Ort zu einem Zuhause."
+    },
+    story: {
+      it: "Verso la fine del cammino ritrova gli affetti più cari, dove basta stare vicini per sentirsi a casa.",
+      en: "Near the journey's end he reunites with loved ones, where simply being close feels like home.",
+      es: "Hacia el final del camino se reencuentra con los suyos, donde estar cerca ya es sentirse en casa.",
+      fr: "Vers la fin du chemin, il retrouve ses proches, là où être ensemble suffit à se sentir chez soi.",
+      de: "Gegen Ende der Reise findet es zu seinen Liebsten zurück, wo allein das Beisammensein das Gefühl von Zuhause schenkt."
+    }
+  },
+  "34": {
+    id: "34_famiglia_felice",
+    audio: "audio/traccia_07.mp3",
+    phrases: {
+      it: "Un abbraccio grande per chiudere il cerchio: ogni colore messo oggi resta un bel ricordo.",
+      en: "A big hug to close the circle: every color you added today stays a fond memory.",
+      es: "Un gran abrazo para cerrar el círculo: cada color de hoy queda como un buen recuerdo.",
+      fr: "Un grand câlin pour boucler la boucle : chaque couleur posée reste un joli souvenir.",
+      de: "Eine große Umarmung, um den Kreis zu schließen: Jede Farbe, die du heute gemalt hast, bleibt eine schöne Erinnerung."
+    },
+    story: {
+      it: "Il viaggio si chiude con tutta la famiglia riunita in un abbraccio pieno di pace, sorrisi e colori.",
+      en: "The journey ends with the whole family gathered in a warm hug full of peace, smiles, and color.",
+      es: "El viaje termina con toda la familia reunida en un abrazo lleno de paz, sonrisas y color.",
+      fr: "Le voyage s'achève avec toute la famille réunie dans une étreinte pleine de paix, de sourires et de couleurs.",
+      de: "Die Reise endet mit der ganzen Familie vereint in einer herzlichen Umarmung voller Frieden, Lächeln und Farben."
+    }
+  }
+};
