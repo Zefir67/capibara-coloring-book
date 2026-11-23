@@ -123,6 +123,12 @@
       transition: all 0.15s ease;
     }
 
+    .lang-btn--center {
+      grid-column: 1 / -1;
+      justify-self: center;
+      width: calc(50% - 6px);
+    }
+
     .lang-btn:hover {
       background: var(--accent);
       color: #fff;
@@ -143,7 +149,7 @@
   <script src="data.js"></script>
   <script>
     const STORAGE_KEY = "capibara_lang";
-    const SUPPORTED_LANGS = ["it", "en", "es", "fr"];
+    const SUPPORTED_LANGS = ["it", "en", "es", "fr", "de"];
 
     const UI_LABELS = {
       it: {
@@ -169,6 +175,12 @@
         welcomeSubtitle: "Choisissez votre langue pour lire l'histoire et écouter la musique de chaque planche.",
         savedMsg: "Langue enregistrée ! Vous pouvez maintenant scanner les QR codes des planches.",
         platePrefix: "Planche"
+      },
+      de: {
+        welcomeTitle: "Capibara Coloring Book",
+        welcomeSubtitle: "Wähle deine Sprache, um die Geschichte zu lesen und die Musik jeder Tafel zu hören.",
+        savedMsg: "Sprache gespeichert! Du kannst jetzt die QR-Codes der Tafeln scannen.",
+        platePrefix: "Tafel"
       }
     };
 
@@ -206,6 +218,7 @@
             <button class="lang-btn" data-lang="en">🇬🇧 English</button>
             <button class="lang-btn" data-lang="es">🇪🇸 Español</button>
             <button class="lang-btn" data-lang="fr">🇫🇷 Français</button>
+            <button class="lang-btn lang-btn--center" data-lang="de">🇩🇪 Deutsch</button>
           </div>
           <div class="saved-note" id="saved-note"></div>
         </div>
@@ -247,6 +260,7 @@
             <option value="en" ${lang === "en" ? "selected" : ""}>English</option>
             <option value="es" ${lang === "es" ? "selected" : ""}>Español</option>
             <option value="fr" ${lang === "fr" ? "selected" : ""}>Français</option>
+            <option value="de" ${lang === "de" ? "selected" : ""}>Deutsch</option>
           </select>
         </div>
         <p class="impact-text">${phrase}</p>
