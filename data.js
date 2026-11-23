@@ -33,7 +33,7 @@ const CAPIBARA_DATA = {
   },
   "03": {
     id: "03_stagno",
-    audio: "audio/traccia_03.mp3",
+    audio: "audio/traccia_01.mp3",
     phrases: {
       it: "L'acqua calma riflette il cielo e ogni increspatura è un invito a rallentare insieme al capibara.",
       en: "Calm water mirrors the sky and every ripple invites you to slow down with the capybara.",
@@ -49,7 +49,7 @@ const CAPIBARA_DATA = {
   },
   "04": {
     id: "04_astronauta",
-    audio: "audio/traccia_04.mp3",
+    audio: "audio/traccia_03.mp3",
     phrases: {
       it: "Senza gravità, tra stelle e pianeti silenziosi: anche un capibara può conquistare l'universo.",
       en: "Zero gravity among stars and quiet planets: even a capybara can explore the universe.",
@@ -65,7 +65,7 @@ const CAPIBARA_DATA = {
   },
   "05": {
     id: "05_orto",
-    audio: "audio/traccia_05.mp3",
+    audio: "audio/traccia_01.mp3",
     phrases: {
       it: "Semi nella terra, sole sulle foglie e pazienza che fiorisce: la natura premia chi ha cura.",
       en: "Seeds in the soil, sun on the leaves, and patience blooming: nature rewards tender care.",
@@ -81,7 +81,7 @@ const CAPIBARA_DATA = {
   },
   "06": {
     id: "06_barca",
-    audio: "audio/traccia_06.mp3",
+    audio: "audio/traccia_01.mp3",
     phrases: {
       it: "Un piccolo scafo e il vento leggero: basta lasciarsi andare per scoprire un nuovo orizzonte.",
       en: "A little boat and a gentle breeze: just let go and discover a brand-new horizon.",
@@ -97,7 +97,7 @@ const CAPIBARA_DATA = {
   },
   "07": {
     id: "07_suona_pianoforte",
-    audio: "audio/traccia_07.mp3",
+    audio: "audio/traccia_02.mp3",
     phrases: {
       it: "Tasti bianchi e neri che diventano emozioni: ogni nota è un colore che prende voce.",
       en: "Black and white keys turning into feelings: every note is a color finding its voice.",
@@ -113,7 +113,7 @@ const CAPIBARA_DATA = {
   },
   "08": {
     id: "08_pittore",
-    audio: "audio/traccia_08.mp3",
+    audio: "audio/traccia_02.mp3",
     phrases: {
       it: "Pennello in mano e tela bianca davanti: non ci sono regole, solo il mondo come lo vedi tu.",
       en: "Brush in hand and a blank canvas ahead: no strict rules, just the world as you see it.",
@@ -129,7 +129,7 @@ const CAPIBARA_DATA = {
   },
   "09": {
     id: "09_sotto_la_pioggia",
-    audio: "audio/traccia_09.mp3",
+    audio: "audio/traccia_01.mp3",
     phrases: {
       it: "Gocce che tamburellano leggere e un sorriso sereno: anche i giorni di pioggia hanno la loro luce.",
       en: "Soft raindrops tapping and a calm smile: even rainy days carry their own gentle light.",
@@ -145,7 +145,7 @@ const CAPIBARA_DATA = {
   },
   "10": {
     id: "10_esploratore",
-    audio: "audio/traccia_10.mp3",
+    audio: "audio/traccia_04.mp3",
     phrases: {
       it: "Bussola pronta e passo curioso: ogni sentiero nasconde una meraviglia tutta da scovare.",
       en: "Compass ready and curious steps: every trail hides a wonder waiting to be found.",
@@ -161,7 +161,7 @@ const CAPIBARA_DATA = {
   },
   "11": {
     id: "11_inverno_raccoglie_legna_montagna",
-    audio: "audio/traccia_11.mp3",
+    audio: "audio/traccia_05.mp3",
     phrases: {
       it: "Aria frizzante di montagna e legna raccolta con calma: il calore si prepara passo dopo passo.",
       en: "Crisp mountain air and firewood gathered calmly: warmth is built step by step.",
@@ -177,7 +177,7 @@ const CAPIBARA_DATA = {
   },
   "12": {
     id: "12_escursione_tenda",
-    audio: "audio/traccia_12.mp3",
+    audio: "audio/traccia_05.mp3",
     phrases: {
       it: "Una tenda piantata sotto il cielo aperto: il rifugio perfetto per sognare lontano dal rumore.",
       en: "A tent pitched under the open sky: the ideal shelter for dreaming far from the noise.",
@@ -193,7 +193,7 @@ const CAPIBARA_DATA = {
   },
   "13": {
     id: "13_relax_poltrona_libro",
-    audio: "audio/traccia_13.mp3",
+    audio: "audio/traccia_05.mp3",
     phrases: {
       it: "Una poltrona comoda e le pagine che si aprono: leggere è il viaggio più tranquillo che esista.",
       en: "A cozy armchair and pages opening up: reading is the calmest journey of all.",
@@ -209,7 +209,7 @@ const CAPIBARA_DATA = {
   },
   "14": {
     id: "14_impasta_farina_cucina",
-    audio: "audio/traccia_14.mp3",
+    audio: "audio/traccia_02.mp3",
     phrases: {
       it: "Mani nella farina e profumo di casa: le cose più buone nascono con tempo e allegria.",
       en: "Hands in the flour and the scent of home: the best things are made with time and joy.",
@@ -225,7 +225,7 @@ const CAPIBARA_DATA = {
   },
   "15": {
     id: "15_pittore",
-    audio: "audio/traccia_15.mp3",
+    audio: "audio/traccia_02.mp3",
     phrases: {
       it: "Un altro sguardo sullo stesso mestiere d'arte: ogni tratto nuovo racconta una sfumatura diversa.",
       en: "Another view of the same craft: every fresh stroke tells a slightly different shade.",
@@ -241,7 +241,7 @@ const CAPIBARA_DATA = {
   },
   "16": {
     id: "16_percorso_vita_bici",
-    audio: "audio/traccia_16.mp3",
+    audio: "audio/traccia_04.mp3",
     phrases: {
       it: "Pedalata costante lungo il percorso: non serve correre forte per arrivare dove stai bene.",
       en: "Steady pedaling along the path: you don't need to rush to reach where you feel good.",
@@ -257,7 +257,7 @@ const CAPIBARA_DATA = {
   },
   "17": {
     id: "17_musicista_chitarra_2",
-    audio: "audio/traccia_17.mp3",
+    audio: "audio/traccia_02.mp3",
     phrases: {
       it: "Accordi pizzicati con il cuore leggero: la musica accompagna i passi senza chiedere nulla.",
       en: "Chords plucked with a light heart: music guides your steps without asking for anything.",
@@ -273,7 +273,7 @@ const CAPIBARA_DATA = {
   },
   "18": {
     id: "18_natale",
-    audio: "audio/traccia_18.mp3",
+    audio: "audio/traccia_06.mp3",
     phrases: {
       it: "Luci calde, atmosfera di festa e voglia di stare insieme: il Natale ha il calore che gli dai.",
       en: "Warm lights, festive air, and togetherness: Christmas holds the warmth you give it.",
@@ -289,7 +289,7 @@ const CAPIBARA_DATA = {
   },
   "19": {
     id: "19_pescatore",
-    audio: "audio/traccia_19.mp3",
+    audio: "audio/traccia_01.mp3",
     phrases: {
       it: "La canna ferma e il pensiero che riposa: pescare è soprattutto imparare ad aspettare sereni.",
       en: "A steady rod and a resting mind: fishing is above all learning to wait calmly.",
@@ -305,7 +305,7 @@ const CAPIBARA_DATA = {
   },
   "20": {
     id: "20_mago",
-    audio: "audio/traccia_20.mp3",
+    audio: "audio/traccia_03.mp3",
     phrases: {
       it: "Un tocco di bacchetta e l'immaginazione si accende: la vera magia è ciò che sai inventare.",
       en: "A wave of the wand and imagination lights up: real magic is what you can invent.",
@@ -321,7 +321,7 @@ const CAPIBARA_DATA = {
   },
   "21": {
     id: "21_babbo_natale",
-    audio: "audio/traccia_21.mp3",
+    audio: "audio/traccia_06.mp3",
     phrases: {
       it: "Un sacco pieno di sorprese e un passo gentile: donare un sorriso vale più di ogni regalo.",
       en: "A bag full of surprises and a gentle step: sharing a smile is worth more than any gift.",
@@ -337,7 +337,7 @@ const CAPIBARA_DATA = {
   },
   "22": {
     id: "22_re_e_regina",
-    audio: "audio/traccia_22.mp3",
+    audio: "audio/traccia_03.mp3",
     phrases: {
       it: "Corone regali ma animo gentile: in questo regno vince chi sa accogliere con un sorriso.",
       en: "Royal crowns with a gentle spirit: in this kingdom, kindness wins every time.",
@@ -353,7 +353,7 @@ const CAPIBARA_DATA = {
   },
   "23": {
     id: "23_investigatore",
-    audio: "audio/traccia_23.mp3",
+    audio: "audio/traccia_03.mp3",
     phrases: {
       it: "Lente d'ingrandimento e occhi ben aperti: anche il dettaglio più piccolo può svelare un mistero.",
       en: "Magnifying glass and wide-open eyes: even the smallest clue can solve a mystery.",
@@ -369,7 +369,7 @@ const CAPIBARA_DATA = {
   },
   "24": {
     id: "24_pilota_auto_sportiva",
-    audio: "audio/traccia_24.mp3",
+    audio: "audio/traccia_04.mp3",
     phrases: {
       it: "Motore in pista e concentrazione pulita: la velocità vera è restare lucidi curva dopo curva.",
       en: "Engine on the track and sharp focus: true speed is staying calm corner after corner.",
@@ -385,7 +385,7 @@ const CAPIBARA_DATA = {
   },
   "25": {
     id: "25_contadino_trattore",
-    audio: "audio/traccia_25.mp3",
+    audio: "audio/traccia_01.mp3",
     phrases: {
       it: "Solchi freschi nei campi e lavoro concreto: ciò che coltivi oggi darà frutto domani.",
       en: "Fresh furrows in the fields and steady work: what you plant today will grow tomorrow.",
@@ -401,7 +401,7 @@ const CAPIBARA_DATA = {
   },
   "26": {
     id: "26_arcere",
-    audio: "audio/traccia_26.mp3",
+    audio: "audio/traccia_04.mp3",
     phrases: {
       it: "Respiro fermo, mira chiara e niente fretta: centrare il bersaglio parte da dentro.",
       en: "Steady breath, clear aim, and no rush: hitting the mark starts from within.",
@@ -417,7 +417,7 @@ const CAPIBARA_DATA = {
   },
   "27": {
     id: "27_pilota_aereo",
-    audio: "audio/traccia_27.mp3",
+    audio: "audio/traccia_04.mp3",
     phrases: {
       it: "Oltre le nuvole lo sguardo si allarga: da quassù ogni confine sembra più piccolo.",
       en: "Above the clouds your view expands: from up here every border feels smaller.",
@@ -433,7 +433,7 @@ const CAPIBARA_DATA = {
   },
   "28": {
     id: "28_a_cavallo",
-    audio: "audio/traccia_28.mp3",
+    audio: "audio/traccia_01.mp3",
     phrases: {
       it: "Intesa silenziosa e passo condiviso: andare d'accordo è il ritmo più bello del viaggio.",
       en: "Quiet trust and shared stride: moving in harmony is the best rhythm of the journey.",
@@ -449,7 +449,7 @@ const CAPIBARA_DATA = {
   },
   "29": {
     id: "29_paracadutista",
-    audio: "audio/traccia_29.mp3",
+    audio: "audio/traccia_04.mp3",
     phrases: {
       it: "Il paracadute si apre e il vento ti culla: buttarsi con fiducia trasforma il salto in volo.",
       en: "The parachute opens and the breeze cradles you: leaping with trust turns a drop into flight.",
@@ -465,7 +465,7 @@ const CAPIBARA_DATA = {
   },
   "30": {
     id: "30_fattoria",
-    audio: "audio/traccia_30.mp3",
+    audio: "audio/traccia_01.mp3",
     phrases: {
       it: "Cortile vivo, suoni familiari e aria aperta: la fattoria è un piccolo mondo pieno di vita.",
       en: "Lively yard, familiar sounds, and open air: the farm is a small world full of life.",
@@ -481,7 +481,7 @@ const CAPIBARA_DATA = {
   },
   "31": {
     id: "31_compleanno",
-    audio: "audio/traccia_31.mp3",
+    audio: "audio/traccia_06.mp3",
     phrases: {
       it: "Candele accese, torta e tanta allegria: oggi è il giorno giusto per festeggiare chi sei.",
       en: "Lit candles, cake, and plenty of cheer: today is the right day to celebrate who you are.",
@@ -497,7 +497,7 @@ const CAPIBARA_DATA = {
   },
   "32": {
     id: "32_alloween_con_gatto",
-    audio: "audio/traccia_32.mp3",
+    audio: "audio/traccia_06.mp3",
     phrases: {
       it: "Un gatto complice e un'aria un po' birichina: anche le serate più buffe nascondono un sorriso.",
       en: "A playful cat partner and a cheeky vibe: even the silliest nights hide a smile.",
@@ -513,7 +513,7 @@ const CAPIBARA_DATA = {
   },
   "33": {
     id: "33_famiglia_2",
-    audio: "audio/traccia_33.mp3",
+    audio: "audio/traccia_07.mp3",
     phrases: {
       it: "Vicini e complici, senza bisogno di parole: stare insieme è ciò che rende casa ogni posto.",
       en: "Close and connected without needing words: being together makes any place feel like home.",
@@ -529,7 +529,7 @@ const CAPIBARA_DATA = {
   },
   "34": {
     id: "34_famiglia_felice",
-    audio: "audio/traccia_34.mp3",
+    audio: "audio/traccia_07.mp3",
     phrases: {
       it: "Un abbraccio grande per chiudere il cerchio: ogni colore messo oggi resta un bel ricordo.",
       en: "A big hug to close the circle: every color you added today stays a fond memory.",
